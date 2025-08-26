@@ -1,53 +1,35 @@
 🎲 Tenzies Game
+A fun dice game built with React + Vite. Test your luck and strategy!
 
-A fun dice game built with React + Vite.
-
-🚀 About the Game
-
-Tenzies is a simple but addictive dice game:
-
-Roll 10 dice until all of them show the same number.
-
-Click on a die to “freeze” it at its current value between rolls.
-
-Keep rolling until all dice are the same! 🎉
+🚀 Gameplay
+🎲 Roll 10 dice until all show the same number.
+🖱️ Click on a die to freeze/lock its value.
+🔁 Keep rolling until you win!
+🏆 Track your rolls and time to beat your best score.
 
 🛠️ Tech Stack
-
-⚛️ React (with Hooks)
-
-⚡ Vite (for fast development)
-
-🎨 CSS / Tailwind (if you styled with it)
+⚛️ React (Hooks & Components)
+⚡ Vite (super-fast dev server)
+🎨 TailwindCSS (for styling, optional)
 
 📸 Screenshot
+(Add your screenshot here)
+<img src="screenshot.png" width="500" alt="Tenzies Game Screenshot" />
 
-(Add a screenshot of your game here)
-
-🏃 How to Play Locally
-
-Clone the repo:
-
+🏃 Run Locally
+Clone the project:
 git clone https://github.com/your-username/tenzies-game.git
 cd tenzies-game
 
 
 Install dependencies:
-
 npm install
-
-
-Run the game:
-
+Start the dev server
 npm run dev
-
-
 Open in browser → http://localhost:5173
 
 ✨ Features
-
-🎲 Roll & Freeze Dice
-
-⏱️ Track Number of Rolls and Time
-
-🏆 Win Message when you complete the game
+✅ Roll & Lock dice
+✅ Win detection with celebration
+✅ Roll counter & timer
+✅ Reset / New game button
